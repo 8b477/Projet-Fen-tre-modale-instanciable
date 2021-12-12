@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS",sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: mintcream;
+}
+
+
+
+
+.modal_main{
+    display: none;
+}
+
+.container_modal_visible{
+    text-align: center;
+    margin: 5% auto 0;
+    width: 70vw;
+    height: 80vh;
+    border: black 5px solid;
+    background-color: gray;
+    position: relative;
+    overflow-x: auto;
+}
+
+#header_modal{
+
+
+}
+
+#midle_modal{
+
+
+}
+
+#footer_modal{
+
+
+}
+
+h1, p {
+    padding: 5%;
+    font-size: 2.4rem;
+}
+
+#btn_close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: indianred;
+    font-size: 2.4rem;
+    width: 3.4rem;
+}
+
+#btn_open{
+    margin: 1%;
+    color: green;
+    border-radius: 10px;
+    width: 60px;
+}
+
+#btn_open:hover{
+    transform: scale(1.2);
+    transition-delay: 0.08s;
+    cursor: pointer;
+    background-color: green;
+    color: mintcream;
+}
+
+#btn_close:hover{
+    background-color: black;
+    color: indianred;
+    cursor: pointer;
+}
